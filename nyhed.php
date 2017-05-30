@@ -3,10 +3,10 @@
 		ob_start();
 		
         //forbind til databasen
-        $host= 'db.pjetursson.com';
-        $databaseusername ='web15899';
-        $databasepassword = '19728m1573';
-        $databasenavn = 'mysql12'; 
+        $host= 'lneven.dk.mysql';
+        $databasebruger ='lneven_dk';
+        $databasepassword = 'zxcv27';
+        $databasenavn = 'lneven_dk'; 
         
         $con=mysqli_connect($host,$databasebruger,$databasepassword,$databasenavn); //definerer forbindelsen 
 
